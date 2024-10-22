@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <!-- Import custom settings -->
+    <Import Project="CustomSettings.props" />
+
+    <!-- Define other project properties -->
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <!-- Define package reference -->
+    <ItemGroup>
+        <PackageReference Include="$(PackageName)" Version="$(PackageVersion)" />
+    </ItemGroup>
+
+</Project>
+

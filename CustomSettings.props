@@ -1,0 +1,8 @@
+<Project>
+    <PropertyGroup>
+        <!-- Define package information -->
+        <PackageName>Newtonsoft.Json</PackageName>
+        <PackageVersion>13.0.1</PackageVersion>
+    </PropertyGroup>
+</Project>
+
